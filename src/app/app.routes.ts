@@ -10,6 +10,10 @@ export const routes: Routes = [
                 loadComponent: () => import('./business/dashboard/dashboard.component')
             },
             {
+                path: 'registro_archivo',
+                loadComponent: () => import('./business/archivo-clinic/archivo-clinic.component')
+            },
+            {
                 path: '',
                 redirectTo: 'dashboard',
                 pathMatch:'full'
