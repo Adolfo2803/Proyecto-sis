@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './archivo-clinic.component.html',
   styleUrl: './archivo-clinic.component.css'
 })
-export class ArchivoClinicComponent {
+export default class ArchivoClinicComponent {
 
 }
